@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$default-font: 'AppleSDGothicNeoRegular';
+
+@font-face {
+    font-family: 'AppleSDGothicNeoRegular';
+    src: url('../src/assets/fonts/AppleSDGothicNeoR.ttf');
+};
+
+@font-face {
+    font-family: 'AppleSDGothicNeoBold';
+    src: url('../src/assets/fonts/AppleSDGothicNeoB.ttf');
+};
+
+@font-face {
+    font-family: 'AppleSDGothicNeoSemibold';
+    src: url('../src/assets/fonts/AppleSDGothicNeoSB.ttf');
+};
+
+@font-face {
+    font-family: 'AppleSDGothicNeoHeavy';
+    src: url('../src/assets/fonts/AppleSDGothicNeoH.ttf');
+};
+
+body {
+    font-family: $default-font;
+};
+
+.font-neo-regular {
+    font-family: 'AppleSDGothicNeoRegular';
+};
+
+.font-neo-bold {
+    font-family: 'AppleSDGothicNeoBold';
+};
+
+.font-neo-semibold {
+    font-family: 'AppleSDGothicNeoSemibold';
+};
+
+.font-neo-heavy {
+    font-family: 'AppleSDGothicNeoHeavy';
+};
