@@ -1,12 +1,30 @@
 <div class="bg-[rgb(250,251,252)] h-screen w-screen flex items-center justify-center">
-    <div class="w-[496px] h-[723px] bg-white flex flex-col">
-        <img class="w-3/5 pl-16 mt-14 mb-6" src="../../assets/images/weverse-logo-title.png"/>
-        <div class="px-16 flex flex-col gap-7">
-            <div class="text-2xl font-neo-semibold">Weverse Account Log in / Sign up</div>
-            <div class="">
-                <div class="text-sm">Gmail</div>
+    <div class="w-[496px] h-[723px] bg-white flex flex-col justify-between">
+        <div class="flex flex-col w-full">
+            <img class="w-3/5 pl-16 mt-14 mb-6" src="../../assets/images/weverse-logo-title.png"/>
+            <div class="px-16 flex flex-col gap-7">
+                <div class="text-2xl font-neo-semibold">Weverse Account Log in / Sign up</div>
+                <div class="w-full">
+                    <div class="text-sm">Gmail</div>
+                    <app-input></app-input>
+                </div>
             </div>
-            <app-input></app-input>
+        </div>
+        <div class="flex flex-col w-full justify-center items-center mb-6">
+            <div class="flex flex-col w-full justify-center items-center mb-6">
+                <app-button class="w-[396px] flex justify-center h-[50px] mb-3"></app-button>
+                <div class="text-sm cursor-pointer text-[rgb(142,142,142)] hover:text-[rgb(85,85,85)]">Forgot password?</div>
+            </div>
+            <div class="flex flex-row w-[396px] mb-6 text-center">
+                <div class="h-[1px] w-full bg-[rgb(228,228,228)] relative">
+                    <div class="bg-white px-4 absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2">OR</div>
+                </div>
+            </div>
+            <div class="flex items-center gap-3">
+                <img class="cursor-pointer" src="../../../assets/icons/iconLogoTwitter.svg"/>
+                <img class="cursor-pointer" src="../../../assets/icons/iconLogoGoogle.svg"/>
+                <img class="cursor-pointer" src="../../../assets/icons/iconLogoApple.svg"/>
+            </div>
         </div>
     </div>
 </div>
