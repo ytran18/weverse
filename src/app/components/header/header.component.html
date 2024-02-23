@@ -1,0 +1,21 @@
+<div class="w-screen h-[80px] px-12 flex justify-between items-center">
+    <div class="">
+        <img (click)="onLogoClick()" class="w-[136px] cursor-pointer" src="../../../assets/images/weverse-text-logo.png"/>
+    </div>
+    <div class="flex items-center gap-8 h-full">
+        <div class="">
+            <app-button
+                title="Sign in"
+                [radius]="50"
+                [paddingX]="16"
+                [paddingY]="4"
+            >
+            </app-button>
+        </div>
+        <div class="w-[2px] h-[30%] bg-[rgb(240,240,240)]"></div>
+        <div class="flex gap-4">
+            <img class="w-[38px] cursor-pointer" src="../../../assets/images/jelly-shop.png"/>
+            <img class="w-[38px] cursor-pointer" src="../../../assets/images/weverse-shop.png"/>
+        </div>
+    </div>
+</div>

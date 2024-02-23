@@ -1,6 +1,11 @@
 <button
+    [style.border-radius.px]="radius"
+    [style.paddingLeft.px]="paddingX"
+    [style.paddingRight.px]="paddingX"
+    [style.paddingTop.px]="paddingY"
+    [style.paddingBottom.px]="paddingY"
     style="background: linear-gradient(90deg, rgb(8, 204, 202) 0%, rgb(24, 231, 156) 100%);"
-    class="w-full text-white font-neo-semibold rounded-md"
+    class="w-full h-full text-white font-neo-semibold"
 >
-    Continue with this email
+    {{ title}}
 </button>
